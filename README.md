@@ -1,3 +1,8 @@
 # GitHub-Guide
 
-## Guide to use github
+Guide on how to use GitHub
+
+Includes
+-Commands
+-Order
+-Features

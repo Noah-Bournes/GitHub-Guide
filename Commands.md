@@ -49,6 +49,7 @@ git reset --hard HEAD       # Revert all local changes
 ```
 
 ## Local > GitHub
+```bash
 mkdir new-cyber-repo
 cd new-cyber-repo
 git init                             # Start a new local repo
@@ -58,6 +59,7 @@ git commit -m "Initial commit"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/new-cyber-repo.git
 git push -u origin main
+```
 
 
 ## 💡 GitHub Shortcuts (Web)

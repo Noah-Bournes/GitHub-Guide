@@ -61,6 +61,19 @@ git remote add origin https://github.com/YOUR-USERNAME/new-cyber-repo.git
 git push -u origin main
 ```
 
+## Extra Commands
+```bash
+git diff                 # View unstaged changes
+git diff --staged        # View staged changes
+
+git stash                # Save uncommitted changes for later
+git stash pop            # Reapply stashed changes
+
+git commit --amend       # Modify the most recent commit
+
+git log --oneline        # Compact view of commit history
+git log --graph --all    # Visualize branch and merge history
+```
 
 ## 💡 GitHub Shortcuts (Web)
 

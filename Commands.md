@@ -1,11 +1,5 @@
 # Commands
 
-## 🔧 Setup (First Time Only)
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "you@example.com"
-```
-
 ## 📥 Clone a Repository
 ```bash
 git clone https://github.com/username/repo.git
@@ -53,6 +47,18 @@ git restore filename        # Undo changes to a file
 git reset HEAD filename     # Unstage a file
 git reset --hard HEAD       # Revert all local changes
 ```
+
+## Local > GitHub
+mkdir new-cyber-repo
+cd new-cyber-repo
+git init                             # Start a new local repo
+echo "# Cyber Notes" > README.md
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOUR-USERNAME/new-cyber-repo.git
+git push -u origin main
+
 
 ## 💡 GitHub Shortcuts (Web)
 

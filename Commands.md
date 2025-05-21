@@ -15,7 +15,9 @@ git log             # Show commit history
 ```bash
 git add filename        # Stage one file
 git add .               # Stage all changes
+git add --all           # Stage all changes
 git commit -m "Message" # Commit with a message
+git commit -a -m "message" # Stage all + Commit with a message
 ```
 
 ## ⬆️ Push to GitHub
@@ -30,9 +32,12 @@ git pull origin main    # Update local repo with latest remote changes
 
 ## 🌿 Branching
 ```bash
-git branch new-feature      # Create new branch
-git checkout new-feature    # Switch to branch
-git checkout -b bugfix      # Create + switch in one command
+ls                              # List files in directory
+git branch -m old-name new-name # Change name
+git branch                      # List branches
+git branch new-feature          # Create new branch
+git checkout new-feature        # Switch to branch
+git checkout -b bugfix          # Create + switch in one command
 ```
 
 ## 🔀 Merge Branches
